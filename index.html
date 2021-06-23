@@ -2,7 +2,7 @@
     <head>
         <title>Fetch API Demo</title>
         <link rel="stylesheet" href="css/style.css">
-        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     </head>
     <body>
         <div class="wrapper">
@@ -10,12 +10,15 @@
                 <h1>Fetch API Demo</h1>
                 <p>This is a simple demonstration of Fetch.</p>
                 <form class="search" action="">
-                  <input class="input" type="text">
+                  <label for="">News Topic:</label>
+                  <input class="input" type="text"><br/>
                   <input type="submit" />
                 </form>
                 <div class="container">
+                  <ul class="news-list"></ul>
                 </div>
             </div>
         </div>
+        <script src="js/script.js"></script>
     </body>
 </html>
